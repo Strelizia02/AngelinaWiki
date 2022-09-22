@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>游戏数据自动更新 | AngelinaBot</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/angelina.jpg">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.9825735b.css" as="style"><link rel="preload" href="/assets/js/app.c4012ad7.js" as="script"><link rel="preload" href="/assets/js/2.3c2e6582.js" as="script"><link rel="preload" href="/assets/js/9.31e214be.js" as="script"><link rel="prefetch" href="/assets/js/10.3020c85f.js"><link rel="prefetch" href="/assets/js/11.ba3c6fac.js"><link rel="prefetch" href="/assets/js/12.c06732f1.js"><link rel="prefetch" href="/assets/js/13.868abce9.js"><link rel="prefetch" href="/assets/js/14.10dbe749.js"><link rel="prefetch" href="/assets/js/15.28a53bf4.js"><link rel="prefetch" href="/assets/js/16.36d50245.js"><link rel="prefetch" href="/assets/js/17.646e592b.js"><link rel="prefetch" href="/assets/js/18.b1cf4e8f.js"><link rel="prefetch" href="/assets/js/19.3d700c1e.js"><link rel="prefetch" href="/assets/js/20.662eaa6b.js"><link rel="prefetch" href="/assets/js/21.5bf7b2f3.js"><link rel="prefetch" href="/assets/js/22.888ecbe6.js"><link rel="prefetch" href="/assets/js/23.59391ff8.js"><link rel="prefetch" href="/assets/js/24.b20e6323.js"><link rel="prefetch" href="/assets/js/3.d3831241.js"><link rel="prefetch" href="/assets/js/4.da8b72e6.js"><link rel="prefetch" href="/assets/js/5.048c6337.js"><link rel="prefetch" href="/assets/js/6.29f38f88.js"><link rel="prefetch" href="/assets/js/7.83f34aea.js"><link rel="prefetch" href="/assets/js/8.4d31b438.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9825735b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/angelina.jpg" alt="AngelinaBot" class="logo"> <span class="site-name can-hide">AngelinaBot</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能描述" class="dropdown-title"><span class="title">功能描述</span> <span class="arrow down"></span></button> <button type="button" aria-label="功能描述" class="mobile-dropdown-title"><span class="title">功能描述</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Function/基础功能.html" class="nav-link">
+  基础功能
+</a></li><li class="dropdown-item"><!----> <a href="/Function/模拟抽卡.html" class="nav-link">
+  模拟抽卡
+</a></li><li class="dropdown-item"><!----> <a href="/Function/游戏数据.html" class="nav-link">
+  游戏数据
+</a></li><li class="dropdown-item"><!----> <a href="/Function/B站推送.html" class="nav-link">
+  B站推送
+</a></li><li class="dropdown-item"><!----> <a href="/Function/附加功能.html" class="nav-link">
+  附加功能
+</a></li><li class="dropdown-item"><!----> <a href="/Function/定时任务.html" class="nav-link">
+  定时任务
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="搭建部署" class="dropdown-title"><span class="title">搭建部署</span> <span class="arrow down"></span></button> <button type="button" aria-label="搭建部署" class="mobile-dropdown-title"><span class="title">搭建部署</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Build/部署前言.html" class="nav-link">
+  部署前言
+</a></li><li class="dropdown-item"><!----> <a href="/Build/登录配置.html" class="nav-link">
+  登录配置
+</a></li><li class="dropdown-item"><!----> <a href="/Build/闲聊配置.html" class="nav-link">
+  闲聊配置
+</a></li><li class="dropdown-item"><!----> <a href="/Build/数据更新.html" class="nav-link">
+  数据更新
+</a></li><li class="dropdown-item"><!----> <a href="/Build/常见错误.html" class="nav-link">
+  常见错误
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架开发" class="dropdown-title"><span class="title">框架开发</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架开发" class="mobile-dropdown-title"><span class="title">框架开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Frame/开发须知.html" class="nav-link">
+  开发须知
+</a></li><li class="dropdown-item"><!----> <a href="/Frame/框架服务.html" class="nav-link">
+  框架服务
+</a></li><li class="dropdown-item"><!----> <a href="/Frame/如何开发.html" class="nav-link">
+  如何开发
+</a></li></ul></div></div><div class="nav-item"><a href="/About.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><a href="https://github.com/Strelizia02/AngelinaBot" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  洁哥源码
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/Strelizia02/AngelinaFrame" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  框架源码
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能描述" class="dropdown-title"><span class="title">功能描述</span> <span class="arrow down"></span></button> <button type="button" aria-label="功能描述" class="mobile-dropdown-title"><span class="title">功能描述</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Function/基础功能.html" class="nav-link">
+  基础功能
+</a></li><li class="dropdown-item"><!----> <a href="/Function/模拟抽卡.html" class="nav-link">
+  模拟抽卡
+</a></li><li class="dropdown-item"><!----> <a href="/Function/游戏数据.html" class="nav-link">
+  游戏数据
+</a></li><li class="dropdown-item"><!----> <a href="/Function/B站推送.html" class="nav-link">
+  B站推送
+</a></li><li class="dropdown-item"><!----> <a href="/Function/附加功能.html" class="nav-link">
+  附加功能
+</a></li><li class="dropdown-item"><!----> <a href="/Function/定时任务.html" class="nav-link">
+  定时任务
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="搭建部署" class="dropdown-title"><span class="title">搭建部署</span> <span class="arrow down"></span></button> <button type="button" aria-label="搭建部署" class="mobile-dropdown-title"><span class="title">搭建部署</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Build/部署前言.html" class="nav-link">
+  部署前言
+</a></li><li class="dropdown-item"><!----> <a href="/Build/登录配置.html" class="nav-link">
+  登录配置
+</a></li><li class="dropdown-item"><!----> <a href="/Build/闲聊配置.html" class="nav-link">
+  闲聊配置
+</a></li><li class="dropdown-item"><!----> <a href="/Build/数据更新.html" class="nav-link">
+  数据更新
+</a></li><li class="dropdown-item"><!----> <a href="/Build/常见错误.html" class="nav-link">
+  常见错误
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架开发" class="dropdown-title"><span class="title">框架开发</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架开发" class="mobile-dropdown-title"><span class="title">框架开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Frame/开发须知.html" class="nav-link">
+  开发须知
+</a></li><li class="dropdown-item"><!----> <a href="/Frame/框架服务.html" class="nav-link">
+  框架服务
+</a></li><li class="dropdown-item"><!----> <a href="/Frame/如何开发.html" class="nav-link">
+  如何开发
+</a></li></ul></div></div><div class="nav-item"><a href="/About.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><a href="https://github.com/Strelizia02/AngelinaBot" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  洁哥源码
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/Strelizia02/AngelinaFrame" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  框架源码
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>游戏数据自动更新</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Build/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0.html#权限配置" class="sidebar-link">权限配置</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Build/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0.html#卡池配置" class="sidebar-link">卡池配置</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Build/%E6%95%B0%E6%8D%AE%E6%9B%B4%E6%96%B0.html#外号配置" class="sidebar-link">外号配置</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="游戏数据自动更新"><a href="#游戏数据自动更新" class="header-anchor">#</a> 游戏数据自动更新</h1> <p>安洁莉娜会每10分钟检测一次游戏数据版本，若版本不同会进行自动更新。</p> <p>如你发现数据缺失/错误或其他原因，想要强制Bot更新数据，请在群聊中发送</p> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>洁哥更新</p></div> <p>洁哥更新时会有频繁的日志提示，请观察日志的变化来确定更新是否成功。</p> <h1 id="语音更新"><a href="#语音更新" class="header-anchor">#</a> 语音更新</h1> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>洁哥仅会自动更新游戏数据+立绘/材料/头像/技能图标，语音不会自动更新，请手动进行语音更新【洁哥更新语音】，语音包大概占用<strong>12G</strong>磁盘空间。</p></div> <h1 id="全量更新"><a href="#全量更新" class="header-anchor">#</a> 全量更新</h1> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>该功能会删除你所有的游戏数据重新写入，一次全量更新时间在30-120分钟不止，请谨慎操作。</p></div> <h1 id="配置数据"><a href="#配置数据" class="header-anchor">#</a> 配置数据</h1> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>请学习sqlite的操作方式，涉及Bot的权限配置/卡池配置，均要通过修改sqlite数据库的方式。</p> <p>推荐使用<a href="http://www.navicat.com.cn/" target="_blank" rel="noopener noreferrer">Navicat preminum<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>工具，修改起来更便捷。</p></div> <h2 id="权限配置"><a href="#权限配置" class="header-anchor">#</a> 权限配置</h2> <p>权限结构如图</p> <p><img src="/%E6%9D%83%E9%99%90%E9%85%8D%E7%BD%AE.png" alt="image"></p> <p>第一列 qq 是管理员QQ号，需精确填写。</p> <p>第二列 name 是管理员的Name，在管理员较多的情况下，通过QQ难以快速找到某人，该列无需填写，会根据管理员在QQ群中的昵称自行填写</p> <p>第三列 found 是无限抽卡权限 0为无权限 1为有权限</p> <p>第四列 six 是无限六星权限</p> <p>第五列 sql 是超级管理员权限，可以修改其他群的抽卡信息/关注信息，可以直接执行sql.</p> <div class="custom-block danger"><p class="custom-block-title">警告</p> <p>直接执行sql可以入侵/破坏你的Bot甚至入侵你的计算机，所以请谨慎配置，建议超级管理员权限只给自己。</p></div> <h2 id="卡池配置"><a href="#卡池配置" class="header-anchor">#</a> 卡池配置</h2> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>卡池信息只更新到2022.05.15 <strong>海蚀-归溟幽灵鲨限定池</strong>，后续卡池请自行补充。</p></div> <p><img src="/%E5%8D%A1%E6%B1%A0%E9%85%8D%E7%BD%AE.png" alt="image"></p> <p>在添加up池的时候，请检查下常规池中是否包含该干员。</p> <p>例如新卡池 奔崖怒号：up干员 号角。</p> <p>在你添加 号角 6 奔崖怒号 0的同时，请额外添加一下 号角 6 常规 0，保证其他池子可以正常歪出来号角。</p> <div class="custom-block tip"><p class="custom-block-title">最后一列limit的含义：</p> <ul><li><p>0-&gt;不是限定 - up概率是50%</p></li> <li><p>1-&gt;周年限定 - up概率是70%，会歪其他非新年，非联动限定</p></li> <li><p>2-&gt;联动限定 - up概率是70%，不会歪其他限定</p></li> <li><p>3-&gt;五倍权值</p></li> <li><p>4-&gt;新年限定 - up概率是70%，会歪其他非联动限定</p></li></ul></div> <h2 id="外号配置"><a href="#外号配置" class="header-anchor">#</a> 外号配置</h2> <p><img src="/%E5%A4%96%E5%8F%B7%E9%85%8D%E7%BD%AE.png" alt="image"></p> <p>用于映射干员的外号，如有缺失请自行补充</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.c4012ad7.js" defer></script><script src="/assets/js/2.3c2e6582.js" defer></script><script src="/assets/js/9.31e214be.js" defer></script>
+  </body>
+</html>

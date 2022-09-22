@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>定时任务 | AngelinaBot</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/angelina.jpg">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.9825735b.css" as="style"><link rel="preload" href="/assets/js/app.c4012ad7.js" as="script"><link rel="preload" href="/assets/js/2.3c2e6582.js" as="script"><link rel="preload" href="/assets/js/19.3d700c1e.js" as="script"><link rel="prefetch" href="/assets/js/10.3020c85f.js"><link rel="prefetch" href="/assets/js/11.ba3c6fac.js"><link rel="prefetch" href="/assets/js/12.c06732f1.js"><link rel="prefetch" href="/assets/js/13.868abce9.js"><link rel="prefetch" href="/assets/js/14.10dbe749.js"><link rel="prefetch" href="/assets/js/15.28a53bf4.js"><link rel="prefetch" href="/assets/js/16.36d50245.js"><link rel="prefetch" href="/assets/js/17.646e592b.js"><link rel="prefetch" href="/assets/js/18.b1cf4e8f.js"><link rel="prefetch" href="/assets/js/20.662eaa6b.js"><link rel="prefetch" href="/assets/js/21.5bf7b2f3.js"><link rel="prefetch" href="/assets/js/22.888ecbe6.js"><link rel="prefetch" href="/assets/js/23.59391ff8.js"><link rel="prefetch" href="/assets/js/24.b20e6323.js"><link rel="prefetch" href="/assets/js/3.d3831241.js"><link rel="prefetch" href="/assets/js/4.da8b72e6.js"><link rel="prefetch" href="/assets/js/5.048c6337.js"><link rel="prefetch" href="/assets/js/6.29f38f88.js"><link rel="prefetch" href="/assets/js/7.83f34aea.js"><link rel="prefetch" href="/assets/js/8.4d31b438.js"><link rel="prefetch" href="/assets/js/9.31e214be.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.9825735b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/angelina.jpg" alt="AngelinaBot" class="logo"> <span class="site-name can-hide">AngelinaBot</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能描述" class="dropdown-title"><span class="title">功能描述</span> <span class="arrow down"></span></button> <button type="button" aria-label="功能描述" class="mobile-dropdown-title"><span class="title">功能描述</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Function/基础功能.html" class="nav-link">
+  基础功能
+</a></li><li class="dropdown-item"><!----> <a href="/Function/模拟抽卡.html" class="nav-link">
+  模拟抽卡
+</a></li><li class="dropdown-item"><!----> <a href="/Function/游戏数据.html" class="nav-link">
+  游戏数据
+</a></li><li class="dropdown-item"><!----> <a href="/Function/B站推送.html" class="nav-link">
+  B站推送
+</a></li><li class="dropdown-item"><!----> <a href="/Function/附加功能.html" class="nav-link">
+  附加功能
+</a></li><li class="dropdown-item"><!----> <a href="/Function/定时任务.html" class="nav-link">
+  定时任务
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="搭建部署" class="dropdown-title"><span class="title">搭建部署</span> <span class="arrow down"></span></button> <button type="button" aria-label="搭建部署" class="mobile-dropdown-title"><span class="title">搭建部署</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Build/部署前言.html" class="nav-link">
+  部署前言
+</a></li><li class="dropdown-item"><!----> <a href="/Build/登录配置.html" class="nav-link">
+  登录配置
+</a></li><li class="dropdown-item"><!----> <a href="/Build/闲聊配置.html" class="nav-link">
+  闲聊配置
+</a></li><li class="dropdown-item"><!----> <a href="/Build/数据更新.html" class="nav-link">
+  数据更新
+</a></li><li class="dropdown-item"><!----> <a href="/Build/常见错误.html" class="nav-link">
+  常见错误
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架开发" class="dropdown-title"><span class="title">框架开发</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架开发" class="mobile-dropdown-title"><span class="title">框架开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Frame/开发须知.html" class="nav-link">
+  开发须知
+</a></li><li class="dropdown-item"><!----> <a href="/Frame/框架服务.html" class="nav-link">
+  框架服务
+</a></li><li class="dropdown-item"><!----> <a href="/Frame/如何开发.html" class="nav-link">
+  如何开发
+</a></li></ul></div></div><div class="nav-item"><a href="/About.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><a href="https://github.com/Strelizia02/AngelinaBot" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  洁哥源码
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/Strelizia02/AngelinaFrame" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  框架源码
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  Home
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="功能描述" class="dropdown-title"><span class="title">功能描述</span> <span class="arrow down"></span></button> <button type="button" aria-label="功能描述" class="mobile-dropdown-title"><span class="title">功能描述</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Function/基础功能.html" class="nav-link">
+  基础功能
+</a></li><li class="dropdown-item"><!----> <a href="/Function/模拟抽卡.html" class="nav-link">
+  模拟抽卡
+</a></li><li class="dropdown-item"><!----> <a href="/Function/游戏数据.html" class="nav-link">
+  游戏数据
+</a></li><li class="dropdown-item"><!----> <a href="/Function/B站推送.html" class="nav-link">
+  B站推送
+</a></li><li class="dropdown-item"><!----> <a href="/Function/附加功能.html" class="nav-link">
+  附加功能
+</a></li><li class="dropdown-item"><!----> <a href="/Function/定时任务.html" class="nav-link">
+  定时任务
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="搭建部署" class="dropdown-title"><span class="title">搭建部署</span> <span class="arrow down"></span></button> <button type="button" aria-label="搭建部署" class="mobile-dropdown-title"><span class="title">搭建部署</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Build/部署前言.html" class="nav-link">
+  部署前言
+</a></li><li class="dropdown-item"><!----> <a href="/Build/登录配置.html" class="nav-link">
+  登录配置
+</a></li><li class="dropdown-item"><!----> <a href="/Build/闲聊配置.html" class="nav-link">
+  闲聊配置
+</a></li><li class="dropdown-item"><!----> <a href="/Build/数据更新.html" class="nav-link">
+  数据更新
+</a></li><li class="dropdown-item"><!----> <a href="/Build/常见错误.html" class="nav-link">
+  常见错误
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="框架开发" class="dropdown-title"><span class="title">框架开发</span> <span class="arrow down"></span></button> <button type="button" aria-label="框架开发" class="mobile-dropdown-title"><span class="title">框架开发</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/Frame/开发须知.html" class="nav-link">
+  开发须知
+</a></li><li class="dropdown-item"><!----> <a href="/Frame/框架服务.html" class="nav-link">
+  框架服务
+</a></li><li class="dropdown-item"><!----> <a href="/Frame/如何开发.html" class="nav-link">
+  如何开发
+</a></li></ul></div></div><div class="nav-item"><a href="/About.html" class="nav-link">
+  关于
+</a></div><div class="nav-item"><a href="https://github.com/Strelizia02/AngelinaBot" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  洁哥源码
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div><div class="nav-item"><a href="https://github.com/Strelizia02/AngelinaFrame" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  框架源码
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>定时任务</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/Function/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html#检测数据版本" class="sidebar-link">检测数据版本</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Function/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html#检测b站动态" class="sidebar-link">检测B站动态</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Function/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html#生日推送" class="sidebar-link">生日推送</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Function/%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1.html#数据清理" class="sidebar-link">数据清理</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="定时任务"><a href="#定时任务" class="header-anchor">#</a> 定时任务</h1> <h2 id="检测数据版本"><a href="#检测数据版本" class="header-anchor">#</a> 检测数据版本</h2> <p>功能：定时检测数据版本，如有新版本游戏数据，将进行更新功能，更新期间其他功能失效。</p> <h2 id="检测b站动态"><a href="#检测b站动态" class="header-anchor">#</a> 检测B站动态</h2> <p>功能：定时检测B站动态，如有新动态，则推送至对应关注该UP主的群中。</p> <h2 id="生日推送"><a href="#生日推送" class="header-anchor">#</a> 生日推送</h2> <p>功能：每天发送干员的生日提醒。</p> <h2 id="数据清理"><a href="#数据清理" class="header-anchor">#</a> 数据清理</h2> <p>功能：每天凌晨四点清空当日抽卡数据以及缓存文件</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.c4012ad7.js" defer></script><script src="/assets/js/2.3c2e6582.js" defer></script><script src="/assets/js/19.3d700c1e.js" defer></script>
+  </body>
+</html>
